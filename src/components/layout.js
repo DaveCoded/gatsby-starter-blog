@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
+import "../styles/global.css"
 
 class Layout extends React.Component {
   render() {
@@ -23,6 +24,7 @@ class Layout extends React.Component {
               boxShadow: `none`,
               textDecoration: `none`,
               color: `inherit`,
+              fontFamily: `Neutra Text`,
             }}
             to={`/`}
           >
@@ -34,7 +36,7 @@ class Layout extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: `Montserrat, sans-serif`,
+            fontFamily: `Neutra Text, sans-serif`,
             marginTop: 0,
           }}
         >
